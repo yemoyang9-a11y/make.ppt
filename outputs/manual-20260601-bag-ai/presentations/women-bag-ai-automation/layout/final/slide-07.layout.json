@@ -1,0 +1,1576 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kmkq3o",
+    "id": "kmkq3o",
+    "slide": 7,
+    "layoutId": "cfde786c-29ed-42f2-b9d9-c122629f3f21",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3433a25d-a1c4-473f-9734-36a45ce10d31",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial",
+      "Malgun Gothic"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "cfde786c-29ed-42f2-b9d9-c122629f3f21",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3433a25d-a1c4-473f-9734-36a45ce10d31",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3433a25d-a1c4-473f-9734-36a45ce10d31",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "1",
+      "name": "kicker-07-marker",
+      "bbox": [
+        64,
+        42,
+        10,
+        10
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#00754A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "2",
+      "name": "kicker-07-label",
+      "bbox": [
+        82,
+        37,
+        260,
+        20
+      ],
+      "geometry": "rect",
+      "text": "자동화 솔루션 3종",
+      "textPreview": "자동화 솔루션 3종",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "자동화 솔루션 3종"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "자동화 솔루션 3종",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "자동화 솔루션 3종",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "3",
+      "bbox": [
+        64,
+        72,
+        770,
+        82
+      ],
+      "geometry": "rect",
+      "text": "먼저 줄일 업무는 CS, 상품등록, 주간 보고입니다",
+      "textPreview": "먼저 줄일 업무는 CS, 상품등록, 주간 보고입니다",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Malgun Gothic",
+        "color": "#1B1F1E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "먼저 줄일 업무는 CS, 상품등록, 주간 보고입니다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "먼저 줄일 업무는 CS, 상품등록, 주간 보고입니다",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Malgun Gothic",
+            "color": "#1B1F1E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "먼저 줄일 업무는 CS, 상품등록, 주간 보고입니다",
+              "fontSize": 34,
+              "typeface": "Malgun Gothic",
+              "color": "#1B1F1E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "4",
+      "bbox": [
+        66,
+        164,
+        760,
+        48
+      ],
+      "geometry": "rect",
+      "text": "소형몰은 큰 시스템보다 반복 빈도가 높고 리스크가 낮은 업무부터 자동화해야 효과가 빠르게 보입니다.",
+      "textPreview": "소형몰은 큰 시스템보다 반복 빈도가 높고 리스크가 낮은 업무부터 자동화해야 효과가 빠르게 보입니다.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Malgun Gothic",
+        "color": "#69716D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "소형몰은 큰 시스템보다 반복 빈도가 높고 리스크가 낮은 업무부터 자동화해야 효과가 빠르게"
+          },
+          {
+            "index": 2,
+            "text": "보입니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "소형몰은 큰 시스템보다 반복 빈도가 높고 리스크가 낮은 업무부터 자동화해야 효과가 빠르게 보입니다.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "소형몰은 큰 시스템보다 반복 빈도가 높고 리스크가 낮은 업무부터 자동화해야 효과가 빠르게 보입니다.",
+              "fontSize": 18,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "5",
+      "bbox": [
+        84,
+        242,
+        340,
+        292
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#006241",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "6",
+      "bbox": [
+        104,
+        260,
+        72,
+        28
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D4E9E2",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "7",
+      "bbox": [
+        118,
+        267,
+        44,
+        16
+      ],
+      "geometry": "rect",
+      "text": "문의",
+      "textPreview": "문의",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "문의"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "문의",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "문의",
+              "fontSize": 11,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "8",
+      "bbox": [
+        106,
+        298,
+        296,
+        34
+      ],
+      "geometry": "rect",
+      "text": "CS 분류 / 답변 초안",
+      "textPreview": "CS 분류 / 답변 초안",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Malgun Gothic",
+        "color": "#1B1F1E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CS 분류 / 답변 초안"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CS 분류 / 답변 초안",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Malgun Gothic",
+            "color": "#1B1F1E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CS 분류 / 답변 초안",
+              "fontSize": 22,
+              "typeface": "Malgun Gothic",
+              "color": "#1B1F1E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "9",
+      "bbox": [
+        106,
+        338,
+        296,
+        138
+      ],
+      "geometry": "rect",
+      "text": "배송, 재입고, 색상, 교환 문의를 자동 분류하고 답변 초안을 준비합니다.\n\n효과: 첫 답변 대기 시간을 줄이고 응대 품질을 일정하게 만듭니다.",
+      "textPreview": "배송, 재입고, 색상, 교환 문의를 자동 분류하고 답변 초안을 준비합니다. |  | 효과: 첫 답변 대기 시간을 줄이고 응대 품질을 일정하게 만듭니다.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#69716D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "배송, 재입고, 색상, 교환 문의를 자동"
+          },
+          {
+            "index": 2,
+            "text": "분류하고 답변 초안을 준비합니다."
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "효과: 첫 답변 대기 시간을 줄이고 응대"
+          },
+          {
+            "index": 5,
+            "text": "품질을 일정하게 만듭니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "배송, 재입고, 색상, 교환 문의를 자동 분류하고 답변 초안을 준비합니다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "배송, 재입고, 색상, 교환 문의를 자동 분류하고 답변 초안을 준비합니다.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "효과: 첫 답변 대기 시간을 줄이고 응대 품질을 일정하게 만듭니다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "효과: 첫 답변 대기 시간을 줄이고 응대 품질을 일정하게 만듭니다.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "10",
+      "bbox": [
+        160,
+        492,
+        188,
+        32
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1E3932",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "11",
+      "bbox": [
+        174,
+        499,
+        160,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AI 초안 + 사람 승인",
+      "textPreview": "AI 초안 + 사람 승인",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI 초안 + 사람 승인"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI 초안 + 사람 승인",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI 초안 + 사람 승인",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "12",
+      "bbox": [
+        482,
+        242,
+        340,
+        292
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F2F0EB",
+      "lineColor": "#EDEBE9",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "13",
+      "bbox": [
+        502,
+        260,
+        72,
+        28
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EDEBE9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "14",
+      "bbox": [
+        516,
+        267,
+        44,
+        16
+      ],
+      "geometry": "rect",
+      "text": "상품",
+      "textPreview": "상품",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "상품"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "상품",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "상품",
+              "fontSize": 11,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "15",
+      "bbox": [
+        504,
+        298,
+        296,
+        34
+      ],
+      "geometry": "rect",
+      "text": "상품 상세 / 태그 초안",
+      "textPreview": "상품 상세 / 태그 초안",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Malgun Gothic",
+        "color": "#1B1F1E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "상품 상세 / 태그 초안"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "상품 상세 / 태그 초안",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Malgun Gothic",
+            "color": "#1B1F1E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "상품 상세 / 태그 초안",
+              "fontSize": 22,
+              "typeface": "Malgun Gothic",
+              "color": "#1B1F1E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "16",
+      "bbox": [
+        504,
+        338,
+        296,
+        138
+      ],
+      "geometry": "rect",
+      "text": "가방 소재, 크기, 수납, 착용 상황을 같은 형식으로 정리하고 검색 태그를 제안합니다.\n\n효과: 상품 등록 시간을 줄이고 모바일 상세 정보를 선명하게 만듭니다.",
+      "textPreview": "가방 소재, 크기, 수납, 착용 상황을 같은 형식으로 정리하고 검색 태그를 제안합니다. |  | 효과: 상품 등록 시간을 줄이고 모바일 상세 정보를 선명하게 만듭니다.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#69716D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "가방 소재, 크기, 수납, 착용 상황을 같은"
+          },
+          {
+            "index": 2,
+            "text": "형식으로 정리하고 검색 태그를 제안합니다."
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "효과: 상품 등록 시간을 줄이고 모바일 상세"
+          },
+          {
+            "index": 5,
+            "text": "정보를 선명하게 만듭니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "가방 소재, 크기, 수납, 착용 상황을 같은 형식으로 정리하고 검색 태그를 제안합니다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "가방 소재, 크기, 수납, 착용 상황을 같은 형식으로 정리하고 검색 태그를 제안합니다.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "효과: 상품 등록 시간을 줄이고 모바일 상세 정보를 선명하게 만듭니다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "효과: 상품 등록 시간을 줄이고 모바일 상세 정보를 선명하게 만듭니다.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "17",
+      "bbox": [
+        558,
+        492,
+        188,
+        32
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D4E9E2",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "18",
+      "bbox": [
+        572,
+        499,
+        160,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AI 초안 + 사람 승인",
+      "textPreview": "AI 초안 + 사람 승인",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI 초안 + 사람 승인"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI 초안 + 사람 승인",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI 초안 + 사람 승인",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "19",
+      "bbox": [
+        880,
+        242,
+        340,
+        292
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#EDEBE9",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "20",
+      "bbox": [
+        900,
+        260,
+        72,
+        28
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EDEBE9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "21",
+      "bbox": [
+        914,
+        267,
+        44,
+        16
+      ],
+      "geometry": "rect",
+      "text": "보고",
+      "textPreview": "보고",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "보고"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "보고",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "보고",
+              "fontSize": 11,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "22",
+      "bbox": [
+        902,
+        298,
+        296,
+        34
+      ],
+      "geometry": "rect",
+      "text": "재고 / 판매 리포트",
+      "textPreview": "재고 / 판매 리포트",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Malgun Gothic",
+        "color": "#1B1F1E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "재고 / 판매 리포트"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "재고 / 판매 리포트",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Malgun Gothic",
+            "color": "#1B1F1E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "재고 / 판매 리포트",
+              "fontSize": 22,
+              "typeface": "Malgun Gothic",
+              "color": "#1B1F1E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "23",
+      "bbox": [
+        902,
+        338,
+        296,
+        138
+      ],
+      "geometry": "rect",
+      "text": "주문, 품절, 문의, 반품 데이터를 주간 보고서 초안으로 정리합니다.\n\n효과: 대표가 매주 숫자를 모으는 시간을 줄입니다.",
+      "textPreview": "주문, 품절, 문의, 반품 데이터를 주간 보고서 초안으로 정리합니다. |  | 효과: 대표가 매주 숫자를 모으는 시간을 줄입니다.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Malgun Gothic",
+        "color": "#69716D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "주문, 품절, 문의, 반품 데이터를 주간"
+          },
+          {
+            "index": 2,
+            "text": "보고서 초안으로 정리합니다."
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "효과: 대표가 매주 숫자를 모으는 시간을"
+          },
+          {
+            "index": 5,
+            "text": "줄입니다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "주문, 품절, 문의, 반품 데이터를 주간 보고서 초안으로 정리합니다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "주문, 품절, 문의, 반품 데이터를 주간 보고서 초안으로 정리합니다.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "효과: 대표가 매주 숫자를 모으는 시간을 줄입니다.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "효과: 대표가 매주 숫자를 모으는 시간을 줄입니다.",
+              "fontSize": 15,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "24",
+      "bbox": [
+        956,
+        492,
+        188,
+        32
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D4E9E2",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "25",
+      "bbox": [
+        970,
+        499,
+        160,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AI 초안 + 사람 승인",
+      "textPreview": "AI 초안 + 사람 승인",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI 초안 + 사람 승인"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI 초안 + 사람 승인",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI 초안 + 사람 승인",
+              "fontSize": 12,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "26",
+      "bbox": [
+        170,
+        586,
+        940,
+        28
+      ],
+      "geometry": "rect",
+      "text": "우선순위 기준: 반복 빈도 높음 + 매출/고객 경험 영향 큼 + 자동 실행 리스크 낮음",
+      "textPreview": "우선순위 기준: 반복 빈도 높음 + 매출/고객 경험 영향 큼 + 자동 실행 리스크 낮음",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Malgun Gothic",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "우선순위 기준: 반복 빈도 높음 + 매출/고객 경험 영향 큼 + 자동 실행 리스크 낮음"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "우선순위 기준: 반복 빈도 높음 + 매출/고객 경험 영향 큼 + 자동 실행 리스크 낮음",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Malgun Gothic",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "우선순위 기준: 반복 빈도 높음 + 매출/고객 경험 영향 큼 + 자동 실행 리스크 낮음",
+              "fontSize": 20,
+              "typeface": "Malgun Gothic",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "27",
+      "bbox": [
+        64,
+        670,
+        1040,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9C5BC",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "28",
+      "bbox": [
+        64,
+        682,
+        1010,
+        22
+      ],
+      "geometry": "rect",
+      "text": "자료: Gorgias Ecommerce Benchmarks, 한국소비자원, 고객사 진단 후 세부 수치 확정",
+      "textPreview": "자료: Gorgias Ecommerce Benchmarks, 한국소비자원, 고객사 진단 후 세부 수치 확정",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 9,
+        "typeface": "Malgun Gothic",
+        "color": "#69716D",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "자료: Gorgias Ecommerce Benchmarks, 한국소비자원, 고객사 진단 후 세부 수치 확정"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "자료: Gorgias Ecommerce Benchmarks, 한국소비자원, 고객사 진단 후 세부 수치 확정",
+          "resolvedTextStyle": {
+            "fontSize": 9,
+            "typeface": "Malgun Gothic",
+            "color": "#69716D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "자료: Gorgias Ecommerce Benchmarks, 한국소비자원, 고객사 진단 후 세부 수치 확정",
+              "fontSize": 9,
+              "typeface": "Malgun Gothic",
+              "color": "#69716D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "29",
+      "bbox": [
+        1132,
+        676,
+        82,
+        30
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Arial",
+        "color": "#006241",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Arial",
+            "color": "#006241",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 15,
+              "typeface": "Arial",
+              "color": "#006241",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
