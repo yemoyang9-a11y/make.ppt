@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${pageTitle}">현재의 나</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header class="detail-header">
+    <div class="wide-container">
+        <p class="small-title">현재의 기록</p>
+        <h1 th:text="${pageTitle}">현재의 나</h1>
+        <p class="subtitle" th:text="${pageSubtitle}">현재의 나를 소개합니다.</p>
+    </div>
+</header>
+
+<div class="wide-container detail-layout">
+    <aside class="detail-sidebar">
+        <a class="home-link" th:href="@{/}">
+            <span>←</span>
+            <strong>메인으로</strong>
+        </a>
+        <div class="section-nav">
+            <p class="nav-title">현재의 나</p>
+            <nav class="nav-list" aria-label="현재의 나 섹션 메뉴">
+                <a th:each="section, status : ${sectionList}"
+                   th:href="${'#' + section.id}">
+                    <span th:text="${status.count}">1</span>
+                    <strong th:text="${section.title}">섹션 이름</strong>
+                </a>
+            </nav>
+        </div>
+    </aside>
+
+    <main class="detail-main">
+        <section class="content-section reveal"
+                 th:each="section, status : ${sectionList}"
+                 th:id="${section.id}">
+            <p class="section-number" th:text="${'0' + status.count}">01</p>
+            <h2 th:text="${section.title}">섹션 제목</h2>
+            <p class="section-content" th:text="${section.content}">섹션 내용</p>
+        </section>
+
+        <div class="next-link-area">
+            <a class="inline-next-link" th:href="@{/future}">
+                <span>다음 포트폴리오</span>
+                <strong>4학년 2학기 때의 나 →</strong>
+            </a>
+        </div>
+    </main>
+</div>
+
+<script th:src="@{/js/main.js}"></script>
+</body>
+</html>

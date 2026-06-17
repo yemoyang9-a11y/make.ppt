@@ -1,3 +1,12 @@
 node_modules/
 **/node_modules/
+/package.json
+/codex-pet-status-test.png
 outputs/manual-test/
+outputs/
+deck_project/
+docs/
+.idea/
+.superpowers/
+.m2repo/
+target/

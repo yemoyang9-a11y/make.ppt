@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${pageTitle}">4학년 2학기 때의 나</title>
+    <link rel="stylesheet" th:href="@{/css/style.css(v='github-black-20260612')}">
+</head>
+<body>
+<header class="detail-header">
+    <div class="wide-container">
+        <p class="small-title">성장한 모습의 기록</p>
+        <h1 th:text="${pageTitle}">4학년 2학기 때의 나</h1>
+        <p class="subtitle" th:text="${pageSubtitle}">4학년 2학기의 경험과 역량을 소개합니다.</p>
+    </div>
+</header>
+
+<div class="wide-container detail-layout">
+    <aside class="detail-sidebar">
+        <a class="home-link" th:href="@{/}">
+            <span>←</span>
+            <strong>메인으로</strong>
+        </a>
+        <div class="section-nav">
+            <p class="nav-title">4학년 2학기의 나</p>
+            <nav class="nav-list" aria-label="4학년 2학기의 나 섹션 메뉴">
+                <a th:each="section, status : ${sectionList}"
+                   th:href="${'#' + section.id}">
+                    <span th:text="${status.count}">1</span>
+                    <strong th:text="${section.title}">섹션 이름</strong>
+                </a>
+            </nav>
+        </div>
+    </aside>
+
+    <main class="detail-main">
+        <section class="content-section reveal"
+                 th:each="section, status : ${sectionList}"
+                 th:id="${section.id}">
+            <p class="section-number" th:text="${'0' + status.count}">01</p>
+            <h2 th:text="${section.title}">섹션 제목</h2>
+            <p class="section-content" th:text="${section.content}">섹션 내용</p>
+
+            <div class="github-project-list"
+                 th:if="${section.id == 'representative-project'}">
+                <article class="project-card"
+                         th:each="project : ${githubProjects}">
+                    <h3 th:text="${project.title}">프로젝트 제목</h3>
+                    <button class="readme-button" type="button">
+                        README 내용 보기
+                    </button>
+
+                    <div class="readme-content" hidden>
+                        <p th:text="${project.description}">프로젝트 설명</p>
+                        <div class="github-link-area">
+                            <a class="github-icon-link"
+                               th:href="${project.repositoryUrl}"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="GitHub 저장소에서 보기"
+                               title="GitHub 저장소에서 보기">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.51 2.87 8.34 6.84 9.69.5.09.68-.22.68-.49v-1.91c-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.71a9.3 9.3 0 0 1 2.5.34c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.89v3.02c0 .27.18.59.69.49A10.24 10.24 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="next-link-area">
+            <a class="inline-next-link" th:href="@{/current}">
+                <span>다른 포트폴리오</span>
+                <strong>현재의 나 →</strong>
+            </a>
+        </div>
+    </main>
+</div>
+
+<script th:src="@{/js/main.js}"></script>
+</body>
+</html>

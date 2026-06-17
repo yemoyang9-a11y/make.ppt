@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${pageTitle}">나만의 포트폴리오 웹사이트</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header class="main-header">
+    <div class="container">
+        <p class="small-title">양예모</p>
+        <h1 th:text="${pageTitle}">나만의 포트폴리오 웹사이트</h1>
+
+    </div>
+</header>
+
+<main class="container">
+    <section class="card-list" aria-label="포트폴리오 페이지 선택">
+        <a class="portfolio-card"
+           th:each="card : ${cardList}"
+           th:href="${card.link}">
+            <article>
+                <span class="card-number">나의 모습</span>
+                <h2 th:text="${card.title}">카드 제목</h2>
+                <p th:text="${card.description}">카드 설명</p>
+
+                <div class="card-preview">
+                    <p class="preview-title">주요 내용</p>
+                    <ul>
+                        <li th:each="item : ${card.previewItems}" th:text="${item}">주요 항목</li>
+                    </ul>
+                </div>
+                <span class="card-link">자세히 보기 →</span>
+            </article>
+        </a>
+    </section>
+</main>
+<script th:src="@{/js/main.js}"></script>
+</body>
+</html>
